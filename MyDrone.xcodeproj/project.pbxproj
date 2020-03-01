@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D710228B240A969B004B7C28 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D710228A240A969B004B7C28 /* main.cpp */; };
+		D7102432240A96F8004B7C28 /* my_drone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7102291240A96D7004B7C28 /* my_drone.cpp */; };
+		D7102433240A96F8004B7C28 /* mavlink_connection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7102292240A96D7004B7C28 /* mavlink_connection.cpp */; };
+		D7102435240A96F8004B7C28 /* flyer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7102297240A96D8004B7C28 /* flyer.cpp */; };
+		D7102437240A96F8004B7C28 /* mavlink_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D710242C240A96F7004B7C28 /* mavlink_utils.cpp */; };
+		D7102438240A96F8004B7C28 /* message_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7102430240A96F8004B7C28 /* message_types.cpp */; };
+		D7102665240BD0F9004B7C28 /* mavlink_udp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7102663240BD0F9004B7C28 /* mavlink_udp.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D7102285240A969A004B7C28 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D7102287240A969A004B7C28 /* MyDrone */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyDrone; sourceTree = BUILT_PRODUCTS_DIR; };
+		D710228A240A969B004B7C28 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D7102291240A96D7004B7C28 /* my_drone.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = my_drone.cpp; sourceTree = "<group>"; };
+		D7102292240A96D7004B7C28 /* mavlink_connection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mavlink_connection.cpp; sourceTree = "<group>"; };
+		D7102295240A96D7004B7C28 /* mavlink_connection.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mavlink_connection.hpp; sourceTree = "<group>"; };
+		D7102296240A96D7004B7C28 /* message_ids.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = message_ids.h; sourceTree = "<group>"; };
+		D7102297240A96D8004B7C28 /* flyer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = flyer.cpp; sourceTree = "<group>"; };
+		D7102298240A96D8004B7C28 /* message_types.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = message_types.hpp; sourceTree = "<group>"; };
+		D710242A240A96F7004B7C28 /* mavlink_utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mavlink_utils.hpp; sourceTree = "<group>"; };
+		D710242C240A96F7004B7C28 /* mavlink_utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mavlink_utils.cpp; sourceTree = "<group>"; };
+		D710242D240A96F8004B7C28 /* custom_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = custom_utils.h; sourceTree = "<group>"; };
+		D710242F240A96F8004B7C28 /* flyer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = flyer.hpp; sourceTree = "<group>"; };
+		D7102430240A96F8004B7C28 /* message_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = message_types.cpp; sourceTree = "<group>"; };
+		D7102431240A96F8004B7C28 /* my_drone.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = my_drone.hpp; sourceTree = "<group>"; };
+		D7102663240BD0F9004B7C28 /* mavlink_udp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mavlink_udp.cpp; sourceTree = "<group>"; };
+		D7102664240BD0F9004B7C28 /* mavlink_udp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mavlink_udp.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7102284240A969A004B7C28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D710227E240A969A004B7C28 = {
+			isa = PBXGroup;
+			children = (
+				D7102289240A969B004B7C28 /* MyDrone */,
+				D7102288240A969A004B7C28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7102288240A969A004B7C28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7102287240A969A004B7C28 /* MyDrone */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7102289240A969B004B7C28 /* MyDrone */ = {
+			isa = PBXGroup;
+			children = (
+				D7102663240BD0F9004B7C28 /* mavlink_udp.cpp */,
+				D7102664240BD0F9004B7C28 /* mavlink_udp.hpp */,
+				D710242D240A96F8004B7C28 /* custom_utils.h */,
+				D7102297240A96D8004B7C28 /* flyer.cpp */,
+				D710242F240A96F8004B7C28 /* flyer.hpp */,
+				D7102292240A96D7004B7C28 /* mavlink_connection.cpp */,
+				D7102295240A96D7004B7C28 /* mavlink_connection.hpp */,
+				D710242C240A96F7004B7C28 /* mavlink_utils.cpp */,
+				D710242A240A96F7004B7C28 /* mavlink_utils.hpp */,
+				D7102296240A96D7004B7C28 /* message_ids.h */,
+				D7102430240A96F8004B7C28 /* message_types.cpp */,
+				D7102298240A96D8004B7C28 /* message_types.hpp */,
+				D7102291240A96D7004B7C28 /* my_drone.cpp */,
+				D7102431240A96F8004B7C28 /* my_drone.hpp */,
+				D710228A240A969B004B7C28 /* main.cpp */,
+			);
+			path = MyDrone;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7102286240A969A004B7C28 /* MyDrone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D710228E240A969B004B7C28 /* Build configuration list for PBXNativeTarget "MyDrone" */;
+			buildPhases = (
+				D7102283240A969A004B7C28 /* Sources */,
+				D7102284240A969A004B7C28 /* Frameworks */,
+				D7102285240A969A004B7C28 /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyDrone;
+			productName = MyDrone;
+			productReference = D7102287240A969A004B7C28 /* MyDrone */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D710227F240A969A004B7C28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = kangzhiyong;
+				TargetAttributes = {
+					D7102286240A969A004B7C28 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D7102282240A969A004B7C28 /* Build configuration list for PBXProject "MyDrone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D710227E240A969A004B7C28;
+			productRefGroup = D7102288240A969A004B7C28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7102286240A969A004B7C28 /* MyDrone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7102283240A969A004B7C28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7102433240A96F8004B7C28 /* mavlink_connection.cpp in Sources */,
+				D7102435240A96F8004B7C28 /* flyer.cpp in Sources */,
+				D7102665240BD0F9004B7C28 /* mavlink_udp.cpp in Sources */,
+				D7102432240A96F8004B7C28 /* my_drone.cpp in Sources */,
+				D7102438240A96F8004B7C28 /* message_types.cpp in Sources */,
+				D710228B240A969B004B7C28 /* main.cpp in Sources */,
+				D7102437240A96F8004B7C28 /* mavlink_utils.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D710228C240A969B004B7C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D710228D240A969B004B7C28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D710228F240A969B004B7C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CGAKV9NUHN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = (
+					/Users/kangzhiyong/Documents/FlyingCar/Project/MyDrone/MyDrone/mavlink,
+					"/Users/kangzhiyong/Documents/FlyingCar/Project/MyDrone/MyDrone/mavlink/common\n/Users/kangzhiyong/Documents/FlyingCar/Project/MyDrone/MyDrone/mavlink/common\n",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Debug;
+		};
+		D7102290240A969B004B7C28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CGAKV9NUHN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = (
+					/Users/kangzhiyong/Documents/FlyingCar/Project/MyDrone/MyDrone/mavlink,
+					"/Users/kangzhiyong/Documents/FlyingCar/Project/MyDrone/MyDrone/mavlink/common\n/Users/kangzhiyong/Documents/FlyingCar/Project/MyDrone/MyDrone/mavlink/common\n",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7102282240A969A004B7C28 /* Build configuration list for PBXProject "MyDrone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D710228C240A969B004B7C28 /* Debug */,
+				D710228D240A969B004B7C28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D710228E240A969B004B7C28 /* Build configuration list for PBXNativeTarget "MyDrone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D710228F240A969B004B7C28 /* Debug */,
+				D7102290240A969B004B7C28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D710227F240A969A004B7C28 /* Project object */;
+}
